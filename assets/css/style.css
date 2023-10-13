@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    height: 118px;
+    width: 100%;
+    background-color: #ffd900;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+header .img {
+    margin-left: 50px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+section .div01{
+    background-color: #514988;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+section .div01 h1{
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffd900;
+}
+
+section .div01 h3 {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+section .div01 p{
+    margin-top: 20px;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;;
+}
+
+section .div02{
+    width: 50vw;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+section .div02 div{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+section .div02 h1{
+    font-size: 70px;
+    color: #514988;
+}
+
+section .div02 h3{
+    font-size: 30px;
+    color: #e33881;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section .div02 video {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.antigo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/*footer img:hover{
+    border: 3px solid red;
+} */  
+
+.antigo-footer .ingressos {
+    display: grid;
+    grid-auto-flow: column;
+    width: 75%;
+}
+
+.antigo-footer h4{
+    font-size: 27px;
+    color: #f3c61f;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.antigo-footer input{
+    height: 150px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: #514988;
+    margin-right: 20px;
+    border: 0px;
+    color: #fff;
+    font-size: 42px;
+}
+
+.antigo-footer input:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.5);
+    color: #ffd900;
+    font-size: 46px;
+}
+
+.card-higlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
+
+.form {
+    display: flex;
+    background-color: #ffd900;
+    justify-content: center;
+}
+
+form input{
+    background-color: #514988;
+    border-radius: 10px;
+    color: #fff;
+    border: 0;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
